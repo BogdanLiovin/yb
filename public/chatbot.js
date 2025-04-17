@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
 	// Словарь синонимов для поиска
 	const synonyms = {
-		бейсболка: ['бейсболка', 'кепка', 'бейсболки', 'кепки'],
-		футболка: ['футболка', 'футболки', 'т-шорт', 'т-шорты'],
+		табак: ['Куртка', 'RUS', 'OBEY', 'Piana'],
+		вейпы: ['ало', 'ало', 'ало', 'ало'],
 	}
 
 	// Элементы чат-бота
@@ -10,10 +10,10 @@ document.addEventListener('DOMContentLoaded', function () {
 	chatBotIcon.className = 'chatbot-icon'
 	chatBotIcon.innerHTML = `
         <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="18" cy="18" r="18" fill="#fffb00"/>
+            <circle cx="18" cy="18" r="18" fill="#4559DC"/>
             <path d="M12 14C12 12.8954 12.8954 12 14 12H22C23.1046 12 24 12.8954 24 14V18C24 19.1046 23.1046 20 22 20H14C12.8954 20 12 19.1046 12 18V14Z" fill="#1a1a1a"/>
-            <circle cx="16" cy="16" r="2" fill="#fffb00"/>
-            <circle cx="20" cy="16" r="2" fill="#fffb00"/>
+            <circle cx="16" cy="16" r="2" fill="#4559DC"/>
+            <circle cx="20" cy="16" r="2" fill="#4559DC"/>
             <path d="M15 22L13 26H23L21 22H15Z" fill="#1a1a1a"/>
         </svg>
     `
@@ -23,14 +23,14 @@ document.addEventListener('DOMContentLoaded', function () {
 	chatBotContainer.className = 'chatbot-container'
 	chatBotContainer.innerHTML = `
         <div class="chatbot-header">
-            <h3>LVShop Assistant</h3>
+            <h3>CanadaJackets BOT</h3>
             <i class="bx bxs-x-circle chatbot-close"></i>
         </div>
         <div class="chatbot-messages" id="chatbot-messages"></div>
         <div class="chatbot-input">
             <input type="text" id="chatbot-input" placeholder="Введите ваш запрос...">
             <button id="chatbot-send">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M22 2L11 13" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	const popupMessage = document.createElement('div')
 	popupMessage.className = 'chatbot-popup'
 	popupMessage.innerHTML = `
-        <p>Добро пожаловать в LVShop! Я ваш помощник. Нажмите, чтобы начать! 😊</p>
+        <p>Добро пожаловать в CanadaJackets! Я ваш помощник. Нажмите, чтобы начать! 😊</p>
     `
 	document.body.appendChild(popupMessage)
 
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			currentState === 'greeting'
 		) {
 			displayMessage(
-				'Здравствуйте! Я ваш помощник по магазину LVShop. Чем могу помочь? 😊',
+				'Здравствуйте! Я помощник по CanadaJackets. Чем могу помочь? =)',
 				'bot'
 			)
 			displayOptions([

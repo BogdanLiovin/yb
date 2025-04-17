@@ -32,8 +32,8 @@ body {
 .img {
     background-size: cover;
     background-position: center;
-    color: #fffb00;
-    text-shadow: 0 0 15px #eca12f;
+    color: #008cff;
+    text-shadow: 0 0 15px #2f81ec;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,8 +68,8 @@ header .logo h1 {
 
 .text-container {
     font-size: calc(var(--index) * 1.2);
-    color: #fffb00;
-    text-shadow: 0 0 10px #eca12f;
+    color: #0059ff;
+    text-shadow: 0 0 10px #2fece6;
     background-color: rgba(255, 255, 255, 0.582);
     border-radius: calc(var(--index) / 3);
     padding: calc(var(--index) * 0.5);
@@ -86,7 +86,7 @@ button {
     padding: 15px 30px;
     font-size: 1.2rem;
     background-color: #333;
-    color: #fffb00;
+    color: #19e3be;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -94,7 +94,7 @@ button {
 }
 
 button:hover {
-    background-color: #eca12f;
+    background-color: #118ce5;
 }
 
 

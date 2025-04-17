@@ -11,7 +11,7 @@
 }
 
 .filters-container label {
-    color: #fffb00;
+    color: #00d0ff;
     font-size: 1rem;
 }
 
@@ -21,16 +21,16 @@
     font-size: 1rem;
     background-color: #333;
     color: #fff;
-    border: 1px solid #fffb00;
+    border: 1px solid #0077ff;
     border-radius: 4px;
 }
 
 .filters-container button {
-    background-color: #eca12f;
+    background-color: #2f4eec;
 }
 
 .filters-container button:hover {
-    background-color: #fffb00;
+    background-color: #00b2ff;
     color: #333;
 }
 
@@ -49,5 +49,5 @@
     background-color: rgba(255, 255, 255, 0.1);
     padding: 1rem;
     border-radius: 8px;
-    border: 2px solid #fffb00;
+    border: 2px solid #00eaff;
 }

@@ -18,22 +18,22 @@ const salesByCategoryChart = new Chart(
 			scales: {
 				y: {
 					beginAtZero: true,
-					title: { display: true, text: 'Сумма продаж', color: '#fffb00' },
-					ticks: { color: '#fffb00' },
+					title: { display: true, text: 'Сумма продаж', color: '#0033ff' },
+					ticks: { color: '#0033ff' },
 				},
 				x: {
-					title: { display: true, text: 'Категории', color: '#fffb00' },
-					ticks: { color: '#fffb00' },
+					title: { display: true, text: 'Категории', color: '#0033ff' },
+					ticks: { color: '#0033ff' },
 				},
 			},
 			plugins: {
 				title: {
 					display: true,
 					text: 'Продажи по категориям',
-					color: '#fffb00',
+					color: '#0033ff',
 					font: { size: 18, family: 'raleway_f', weight: 'bold' },
 				},
-				legend: { labels: { color: '#fffb00' } },
+				legend: { labels: { color: '#0033ff' } },
 			},
 		},
 	}
@@ -59,22 +59,22 @@ const salesByMonthChart = new Chart(
 			scales: {
 				y: {
 					beginAtZero: true,
-					title: { display: true, text: 'Сумма продаж', color: '#fffb00' },
-					ticks: { color: '#fffb00' },
+					title: { display: true, text: 'Сумма продаж', color: '#0033ff' },
+					ticks: { color: '#0033ff' },
 				},
 				x: {
-					title: { display: true, text: 'Месяц', color: '#fffb00' },
-					ticks: { color: '#fffb00' },
+					title: { display: true, text: 'Месяц', color: '#0033ff' },
+					ticks: { color: '#0033ff' },
 				},
 			},
 			plugins: {
 				title: {
 					display: true,
 					text: 'Продажи по месяцам',
-					color: '#fffb00',
+					color: '#0033ff',
 					font: { size: 18, family: 'raleway_f', weight: 'bold' },
 				},
-				legend: { labels: { color: '#fffb00' } },
+				legend: { labels: { color: '#0033ff' } },
 			},
 		},
 	}

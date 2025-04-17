@@ -36,7 +36,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(img/LV4.2.jpg);
+    background-color: #0d47a1;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -44,9 +44,9 @@ header {
 }
 
 header .logo h1 {
-    margin: 0;
-    color: #fffb00;
-    text-shadow: 0 0 15px #eca12f;
+    margin-left: 100px;
+    color: #3fdefa;
+    text-shadow: 0 0 15px #15c9ce;
     font-size: calc(var(--index) * 1.2);
 }
 
@@ -64,10 +64,9 @@ nav ul {
     display: flex;
     align-items: center;
     gap: calc(var(--index) * 1.5);
-    background: linear-gradient(135deg, rgba(255, 251, 0, 0.2), rgba(236, 161, 47, 0.2));
+    background: linear-gradient(135deg, rgba(3, 255, 246, 0.2), rgba(7, 0, 255, 0.2));
     padding: 10px 20px;
-    border-radius: 50px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 15px rgba(18, 49, 43, 0.3);
     backdrop-filter: blur(5px);
 }
 
@@ -76,7 +75,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(255, 230, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px 20px;
     border: 2px solid transparent;
@@ -92,10 +91,10 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #fff;
-    border: 2px solid #fffb00;
-    background: linear-gradient(45deg, #eca12f, #fffb00);
+    border: 2px solid #1284d5;
+    background: linear-gradient(45deg, #2f87ec, #006fff);
     transform: translateY(-2px);
-    box-shadow: 0 4px 10px rgba(236, 161, 47, 0.5);
+    box-shadow: 0 4px 10px rgba(47, 192, 236, 0.5);
 }
 
 .dropdown-content {
@@ -107,8 +106,7 @@ nav ul li a:hover {
     min-width: 200px;
     box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
     z-index: 1000;
-    border: 2px solid #fffb00;
-    border-radius: 15px;
+    border: 2px solid #00a6ff;
     padding: 10px 0;
     transform: translateY(10px);
     transition: all 0.3s ease;
@@ -124,16 +122,15 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     padding: 12px 20px;
-    border-bottom: 1px solid rgba(255, 251, 0, 0.2);
+    border-bottom: 1px solid rgba(25, 201, 253, 0.2);
     white-space: nowrap;
-    color: #fffb00;
+    color: #17d8de;
     transition: all 0.3s ease;
 }
 
 .dropdown-content a:hover {
-    background: linear-gradient(45deg, #eca12f, #fffb00);
+    background: linear-gradient(45deg, #0fb4e7, #0051ff);
     color: #fff;
-    border-radius: 0 15px 15px 0;
 }
 
 .dropdown-content a:last-child {
@@ -184,11 +181,11 @@ nav ul li a:hover {
 }
 
 footer {
-    background-image: url(img/LV4.2.jpg);
+    background-color: #0d47a1;
     background-size: cover;
     background-position: center;
-    color: #fffb00;
-    text-shadow: 0 0 15px #eca12f;
+    color: #0ce7e0;
+    text-shadow: 0 0 15px #2f87ec;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -216,7 +213,7 @@ footer {
     .burger-menu span {
         width: 25px; /* Уменьшили ширину */
         height: 3px; /* Уменьшили высоту */
-        background-color: #fffb00;
+        background-color: #0bc1d2;
         margin: 2.5px 0; /* Уменьшили отступы между линиями */
         transition: all 0.3s ease;
     }

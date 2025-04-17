@@ -25,7 +25,7 @@ body {
     min-height: 100vh;
     background-size: cover;
     background-color: center;
-    color: #fffb00;
+    color: #00c4ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,7 @@ body {
     margin: auto;
     padding: calc(var(--index)*1);
     background-color: #5a5959;
-    border: 2px solid #fffb00;
+    border: 2px solid #0059ff;
     border-radius: 8px;
     display: flex;
     justify-content: center;

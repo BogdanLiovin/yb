@@ -10,9 +10,9 @@
 }
 :root {
     --index: calc(1vw + 1vh);
-    --main-color: #fd4646;
+    --main-color: #178304;
     --text-color: #171427;
-    --bg-color: #fff;
+    --bg-color: #9fd9ea;
 }
 @font-face {
     font-family: raleway_f;
@@ -42,7 +42,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background: url(img/LV4.2.jpg);
+    background-color: #0e3080;
     box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
     z-index: 1000;
     background-size: cover;
@@ -57,8 +57,8 @@ header {
 .logo {
     font-size: calc(var(--index) * 1) ;
     font-weight: 400;
-    color: #fffb00;
-    text-shadow: 0 0 15px #eca12f;
+    color: #0049ff;
+    text-shadow: 0 0 15px #00d9ff;
     font-weight: bold;
 }
 
@@ -170,6 +170,8 @@ header {
 }
 .product-box {
     position: relative;
+    background-color: whitesmoke;
+
 }
 .product-box:hover {
     padding: 10px;
@@ -261,7 +263,7 @@ header {
     }
     50% {
         transform: scale(1.2);
-        color: #ffcc00;
+        color: #0936fd;
     }
     100% {
         transform: scale(1);
@@ -528,8 +530,7 @@ header {
     gap: 1rem;
     margin-bottom: 2rem;
     padding: 1rem;
-    background: #f5f5f5;
-    border-radius: 8px;
+    background: #79c6dc;
     align-items: center;
 }
 
@@ -542,14 +543,14 @@ header {
 .search-box {
     position: relative;
     flex: 1;
-    min-width: 200px;
+    min-width: 100px;
 }
 
 .search-box input {
     width: 100%;
     padding: 0.5rem 1rem 0.5rem 2.5rem;
     border: 1px solid #ddd;
-    border-radius: 4px;
+    border-radius: 20px;
 }
 
 .search-box i {
@@ -583,12 +584,12 @@ header {
         flex-direction: column;
         align-items: stretch;
     }
-    
+
     .filter-group {
         flex-direction: column;
         align-items: flex-start;
     }
-    
+
     #price-range {
         width: 100%;
     }
@@ -634,7 +635,7 @@ header {
     .shop-content.single-product .product-box {
         max-width: 200px;
     }
-    
+
     .shop-content.single-product .product-img {
         max-height: 150px;
     }

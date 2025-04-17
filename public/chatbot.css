@@ -65,7 +65,7 @@
 
 .chatbot-header {
     background: linear-gradient(45deg, #333, #1a1a1a); /* Темный градиент */
-    color: #fffb00; /* Желтый текст */
+    color: #0ab1c7; /* Желтый текст */
     padding: 12px 15px;
     border-radius: 12px 12px 0 0;
     display: flex;
@@ -87,7 +87,7 @@
 }
 
 .chatbot-close:hover {
-    color: #eca12f; /* Оранжевый при наведении */
+    color: #2fecd0; /* Оранжевый при наведении */
 }
 
 .chatbot-messages {
@@ -114,7 +114,7 @@
 }
 
 .chatbot-message.user {
-    background-color: #fffb00; /* Желтый фон для сообщений пользователя */
+    background-color: #00a6ff; /* Желтый фон для сообщений пользователя */
     color: #1a1a1a; /* Темный текст */
     margin-right: auto;
     font-weight: 500;
@@ -128,7 +128,7 @@
 }
 
 .chatbot-options button {
-    background-color: #eca12f; /* Оранжевый фон кнопок */
+    background-color: #2f6bec; /* Оранжевый фон кнопок */
     color: #ffffff; /* Белый текст */
     border: none;
     padding: 10px 15px;
@@ -140,7 +140,7 @@
 }
 
 .chatbot-options button:hover {
-    background-color: #d89b27; /* Темнее при наведении */
+    background-color: #27d8d8; /* Темнее при наведении */
 }
 
 .chatbot-input {
@@ -161,7 +161,7 @@
 }
 
 .chatbot-input button {
-    background-color: #fffb00; /* Желтый фон */
+    background-color: #0080ff; /* Желтый фон */
     border: none;
     padding: 10px;
     border-radius: 0 8px 8px 0;
@@ -175,7 +175,7 @@
 }
 
 .chatbot-input button:hover {
-    background-color: #e6e600; /* Темнее при наведении */
+    background-color: #0050e6; /* Темнее при наведении */
     transform: scale(1.05);
 }
 
@@ -239,10 +239,10 @@
 }
 
 .chatbot-messages::-webkit-scrollbar-thumb {
-    background: #eca12f;
+    background: #2fd0ec;
     border-radius: 4px;
 }
 
 .chatbot-messages::-webkit-scrollbar-thumb:hover {
-    background: #d89b27;
+    background: #27d2d8;
 }

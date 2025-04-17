@@ -9,3 +9,7 @@
 2025-04-14T18:45:37.957Z | OrderID: 20 | UserID: 5 | SessionID: cec9dd26-fef3-41d5-807e-91f3e30ac2d5 | Total: 500000 | Items: [{"id":1,"price":"500000.00","quantity":1,"size":"m"}]
 2025-04-14T18:47:50.522Z | OrderID: 21 | UserID: 5 | SessionID: cec9dd26-fef3-41d5-807e-91f3e30ac2d5 | Total: 500000 | Items: [{"id":2,"price":"500000.00","quantity":1,"size":"m"}]
 2025-04-14T18:54:44.480Z | OrderID: 22 | UserID: 5 | SessionID: cec9dd26-fef3-41d5-807e-91f3e30ac2d5 | Total: 500000 | Items: [{"id":2,"price":"500000.00","quantity":1,"size":"m"}]
+2025-04-15T11:58:50.097Z | OrderID: 4 | UserID: 3 | SessionID: ece67c7b-11a6-442e-b0b3-49ee258cb20f | Total: 1800000 | Items: [{"id":7,"price":"200000.00","quantity":9,"size":"l"}]
+2025-04-15T12:00:31.045Z | OrderID: 5 | UserID: 3 | SessionID: ece67c7b-11a6-442e-b0b3-49ee258cb20f | Total: 200000 | Items: [{"id":7,"price":"200000.00","quantity":1,"size":"l"}]
+2025-04-17T18:33:22.181Z | OrderID: 4 | UserID: 3 | SessionID: ece67c7b-11a6-442e-b0b3-49ee258cb20f | Total: 50000 | Items: [{"id":"5","title":"КУРТКА PIANA","price":50000,"quantity":1,"size":"S"}]
+2025-04-17T18:53:39.136Z | OrderID: 5 | UserID: 3 | SessionID: ece67c7b-11a6-442e-b0b3-49ee258cb20f | Total: 500000 | Items: [{"id":1,"price":"500000.00","quantity":1,"size":"m"}]

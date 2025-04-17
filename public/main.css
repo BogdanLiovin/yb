@@ -17,11 +17,10 @@
     font-weight: 900;
 }
 body {
-    background-color: #010101;
+    background-color: #056ce7;
     color: #fff;
     font-family: raleway_f, sans-serif;
     line-height: 1.55;
-    overflow-x: hidden;
 }
 .main-header {
     position: relative;
@@ -57,6 +56,8 @@ body {
 }
 .layer__header {
     position: absolute;
+}
+.layer__header {
     bottom: 20%;
     z-index: 1;
     transform: translate3d(0, calc(var(--scrollTop) / 2), 0);
@@ -64,8 +65,8 @@ body {
     will-change: transform;
     text-transform: uppercase;
     font-weight: 900;
-    color: #fffb00;
-    text-shadow: 0 0 15px #eca12f;
+    color: #0d2f7e;
+    text-shadow: 0 0 15px #0d2f7e;
 }
 .layers__title {
     font-size: calc(var(--index) * 6);
@@ -78,8 +79,8 @@ body {
 .main-article {
     min-height: 100vh;
     background-size: cover;
-    background-color: center;
-    color: #fffb00;
+    background-color: #6868b7;
+    color: #05d8ef;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,24 +104,24 @@ body {
 }
 .main-article__paragraph {
     max-width: calc(var(--index) * 30);
-    font-size: calc(var(--index) * 0.95);
+    font-size: calc(var(--index) * 0.95); /* Увеличен размер текста */
     margin-top: calc(var(--index) / -3);
-    line-height: 1;
+    line-height: 1; /* Добавлено больше межстрочного интервала для читаемости */
     transform: translate3d(0, calc(var(--scrollTop) / -20.5), 0);
     transition: var(--transition);
     will-change: transform;
-    text-align: justify;
-    color: #fffb00;
-    text-shadow: 0 0 10px #eca12f;
-    padding: calc(var(--index) * 0.5);
-    background-color: rgba(255, 255, 255, 0.582);
-    border-radius: calc(var(--index) / 3);
+    text-align: justify; /* Добавлено выравнивание по ширине */
+    color: #0d2f7e; /* Текст сделан ярче для контраста */
+    text-shadow: 0 0 10px #0d2f7e; /* Добавлена легкая подсветка для акцента */
+    padding: calc(var(--index) * 0.5); /* Добавлены отступы для комфортного чтения */
+    background-color: rgba(255, 255, 255, 0.58); /* Добавлен полупрозрачный фон */
+    border-radius: calc(var(--index) / 6); /* Закруглены края */
 }
 .catalog-button {
     margin-top: calc(var(--index) * -1);
     margin-bottom: calc(var(--index) * 2);
     padding: calc(var(--index) / 2) calc(var(--index) * 2);
-    background-color: #fffb00;
+    background-color: #ffffff;
     color: #010101;
     border: none;
     border-radius: calc(var(--index) / 4);
@@ -128,9 +129,10 @@ body {
     text-decoration: none;
     font-size: calc(var(--index) * 1.5);
     transition: background-color 0.3s;
+    border-radius: 50px;
 }
 .catalog-button:hover {
-    background-color: #eca12f;
+    background-color: #0d2f7e;
 }
 .call {
     margin-top: calc(var(--index) * -2);
@@ -150,7 +152,6 @@ body {
 .social-icon img {
     width: calc(var(--index) * 2);
     height: auto;
-    transition: transform 0.3s;
 }
 .social-icon:hover img {
     transform: scale(1.1);
@@ -168,7 +169,6 @@ body {
     flex-direction: column;
     gap: calc(var(--index) * 0.5);
     transform: translate3d(0, calc(var(--scrollTop) / -10.5), 0);
-    transition: transform var(--transition);
 }
 .left-gallery {
     margin-left: calc(var(--index) * 50);
@@ -176,12 +176,14 @@ body {
 }
 .right-gallery {
     margin-right: calc(var(--index) * 50);
+
 }
 .vertical-gallery img {
     width: calc(var(--index) * 10);
     height: auto;
     border-radius: calc(var(--index) / 5);
     transition: transform 0.3s;
+    border-radius: 100px;
 }
 .vertical-gallery img:hover {
     transform: scale(1.05);
@@ -196,14 +198,16 @@ body {
     transform: translateX(-50%);
     z-index: 3;
 }
+
 .arrow {
     width: calc(var(--index) * 1.5);
     height: calc(var(--index) * 1.5);
-    border-left: 2px solid #ebec7f;
-    border-bottom: 2px solid #ebec7f;
+    border-left: 2px solid #0757f5;
+    border-bottom: 2px solid #087df3;
     transform: rotate(0deg);
     animation: bounce 1.5s infinite;
 }
+
 @keyframes bounce {
     0%, 100% {
         transform: rotate(-45deg) translateY(0);
@@ -212,25 +216,31 @@ body {
         transform: rotate(-45deg) translateY(calc(var(--index) * 0.5));
     }
 }
+
 .gender-container {
     display: flex;
     height: 100vh;
     width: 100%;
     flex-direction: row;
-    background-image: url('img/LV4.2.jpg');
+    background-color: #42398a;
     background-size: cover;
     background-position: center;
+    background-image: url('img/img_14.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 .half {
     flex: 1;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column; /* Располагаем элементы вертикально */
+    align-items: center;    /* Центрируем элементы по горизонтали */
+    justify-content: center; /* Центрируем элементы по вертикали */
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
     position: relative;
 }
+
 .gender-image {
     max-width: 80%;
     max-height: 80%;
@@ -239,163 +249,42 @@ body {
     border-radius: 10px;
     margin-top: calc(var(--index) * 3);
 }
+
 .gender-text {
-    margin-top: calc(var(--index) * 0.5);
+    margin-top: calc(var(--index) * 0.5); /* Расстояние между картинкой и текстом */
     font-size: calc(var(--index) * 1.2);
-    color: #fffb00;
+    color: #0d2f7e;
     text-align: center;
-    text-shadow: 0 0 10px #eca12f;
+    text-shadow: 0 0 10px #0a39ee;
     font-weight: bold;
 }
+
+
+/* Надпись с заголовком */
 .gender-title {
     text-align: center;
     font-size: calc(var(--index) * 2);
     margin: calc(var(--index) * -3) 0;
-    color: #fffb00;
-    text-shadow: 0 0 15px #eca12f;
+    color: #0d2f7e;
+    text-shadow: 0 0 15px #05d8ef;
     font-weight: bold;
     position: absolute;
     top: 10%;
     left: 50%;
     transform: translateX(-50%);
 }
+
+/* Рамки и подсветка при наведении */
 .half.left:hover .gender-image {
     transform: scale(1.05);
     opacity: 0.9;
-    border: 5px solid #1e90ff;
+    border: 5px solid #1e90ff; /* Розовая рамка для женской */
 }
+
 .half.right:hover .gender-image {
     transform: scale(1.05);
     opacity: 0.9;
-    border: 5px solid #ff69b4;
+    border: 5px solid #05d8ef; /* Синяя рамка для мужской */
 }
 
-/* Мобильные стили */
-@media (max-width: 768px) {
-    :root {
-        --index: calc(1vw + 1vh + 0.5vmin);
-    }
-    
-    .layers__title {
-        font-size: calc(var(--index) * 3.5);
-    }
-    
-    .layers__caption {
-        font-size: calc(var(--index) * 1.2);
-    }
-    
-    .main-article__header {
-        font-size: calc(var(--index) * 1.5);
-    }
-    
-    .main-article__paragraph {
-        max-width: 90%;
-        font-size: calc(var(--index) * 0.8);
-        padding: 15px;
-        margin-top: 20px;
-    }
-    
-    .main-article__content {
-        padding-bottom: 100px;
-    }
-    
-    .catalog-button {
-        font-size: calc(var(--index) * 1);
-        padding: 10px 20px;
-        position: relative;
-        z-index: 10;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    
-    .vertical-gallery {
-        position: relative;
-        top: auto;
-        margin: 20px 0;
-        transform: none;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-    }
-    
-    .left-gallery, .right-gallery {
-        margin: 0;
-        position: relative;
-        gap: 15px;
-    }
-    
-    .vertical-gallery img {
-        width: 45%;
-        max-width: 200px;
-        margin-bottom: 15px;
-    }
-    
-    .scroll-hint {
-        left: 50%;
-        bottom: 30px;
-    }
-    
-    .arrow {
-        width: 20px;
-        height: 20px;
-    }
-    
-    .social-icon img {
-        width: 30px;
-    }
-    
-    .layer__header {
-        bottom: 30%;
-        width: 100%;
-        padding: 0 20px;
-    }
-    
-    .main-article__content {
-        padding: 20px;
-    }
-    
-    .gender-container {
-        flex-direction: column;
-        height: auto;
-    }
-    
-    .half {
-        padding: 40px 0;
-    }
-    
-    .gender-title {
-        position: relative;
-        top: auto;
-        margin: 20px 0;
-    }
-}
 
-@media (max-width: 480px) {
-    .layers__title {
-        font-size: calc(var(--index) * 2.8);
-    }
-    
-    .main-article__paragraph {
-        font-size: calc(var(--index) * 0.7);
-        text-align: left;
-    }
-    
-    .vertical-gallery img {
-        width: 100%;
-        max-width: none;
-    }
-    
-    .catalog-button {
-        width: 100%;
-        margin: 30px 0;
-    }
-    
-    .social-icons {
-        flex-wrap: wrap;
-    }
-    
-    .social-icon {
-        margin: 5px;
-    }
-}

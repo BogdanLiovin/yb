@@ -36,8 +36,8 @@ body {
 .img {
     background-size: cover;
     background-position: center;
-    color: #fffb00;
-    text-shadow: 0 0 15px #eca12f;
+    color: #0048ff;
+    text-shadow: 0 0 15px #0048ff;
     display: flex;
     align-items: center;
     position: relative;
@@ -49,8 +49,8 @@ body {
 .footer {
     background-size: cover;
     background-position: center;
-    color: #fffb00;
-    text-shadow: 0 0 15px #eca12f;
+    color: #0048ff;
+    text-shadow: 0 0 15px #0048ff;
     display: flex;
     align-items: center;
     position: relative;
@@ -96,7 +96,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: rgb(255, 230, 0);
+    color: rgb(20, 196, 227);
     text-decoration: none;
     padding: 8px 16px;
     border: 2px solid transparent;
@@ -105,8 +105,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #eca12f;
-    border: 2px solid #fffb00;
+    color: #0936fd;
+    border: 2px solid #0049ff;
     background-color: #333;
 }
 
@@ -140,18 +140,18 @@ header nav ul li a:hover {
     display: none;
     position: absolute;
     background-color: #333;
-    min-width: calc(var(--index) * 6); 
+    min-width: calc(var(--index) * 6);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    border: 2px solid #fffb00;
+    border: 2px solid #00d9ff;
 }
 
 .dropdown-content a {
-    color: rgb(255, 230, 0);
+    color: rgb(0, 217, 255);
     padding: calc(var(--index) * 0.75) calc(var(--index) * 1.5);
     text-decoration: none;
     display: block;
-    border-bottom: 1px solid #fffb00;
+    border-bottom: 1px solid #0022ff;
     background-color: transparent;
 }
 
@@ -176,8 +176,8 @@ header nav ul li a:hover {
 h1, h2 {
     text-align: center;
     font-size: 2rem;
-    color: #fffb00;
-    text-shadow: 0 0 15px #eca12f;
+    color: #00ffea;
+    text-shadow: 0 0 15px #2fa4ec;
 }
 
 /* Стили для контейнера формы */
@@ -201,7 +201,7 @@ form input, form select, form button {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 2px solid #fffb00;
+    border: 2px solid #16bcd2;
     border-radius: 5px;
     background-color: #333;
     color: #fff;
@@ -211,13 +211,13 @@ form input, form select, form button {
 
 /* Фокус на поле ввода */
 form input:focus, form select:focus {
-    border-color: #eca12f;
+    border-color: #2fecec;
     outline: none;
 }
 
 /* Кнопка формы */
 form button {
-    background-color: #fffb00;
+    background-color: #13a2a2;
     color: #010101;
     font-weight: bold;
     cursor: pointer;
@@ -225,14 +225,14 @@ form button {
 }
 
 form button:hover {
-    background-color: #eca12f;
+    background-color: #608dec;
 }
 
 /* Линия между заголовком и формой */
 .gender-line {
     width: 80%;
     height: 2px;
-    background-color: #fffb00; /* Желтая линия */
+    background-color: #00d9ff; /* Желтая линия */
     margin: 20px auto;
     border-radius: 5px;
 }
@@ -240,14 +240,14 @@ form button:hover {
 /* Стили для ссылки */
 a {
     text-decoration: none;
-    color: #fffb00;
+    color: #4257de;
     display: block;
     text-align: center;
     margin-top: 15px;
 }
 
 a:hover {
-    color: #eca12f;
+    color: #55e1e1;
 }
 
 /* Стили для заголовков форм */
